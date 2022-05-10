@@ -30,7 +30,7 @@ For other model size, please refer to this table and download on the Internet or
 
 ## Run
 ```bash
-python main.py --data_path /the/data/path/ --weights /the/pretrained/weights/path/
+python main.py --data_path /the/data/path/ --weights /the/pretrained/weights/path/ --fold 0
 ```
 
 
