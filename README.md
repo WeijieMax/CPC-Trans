@@ -1,6 +1,6 @@
 # CPC-Trans
 
-Code for the MICCAI 2022 (early accepted) paper: "[Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-modal Representation Consistency](https://arxiv.org/abs/)"
+Code for the MICCAI 2022 (early accepted) paper: "[Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-modal Representation Consistency](https://arxiv.org/abs/)" (To be published)
 
 ---
 <p align="center">
@@ -29,13 +29,15 @@ For other model size, please refer to this table and download on the Internet or
 
 
 ## Run
+we set the argument "fold" (default: 0) for k-fold cross validation, you can omit it if unnecessary.
 ```bash
-python main.py --data_path /the/data/path/ --weights /the/pretrained/weights/path/ --fold 0
+python main.py --data_path /the/data/path/ --weights /the/pretrained/weights/path/
 ```
 
 
 ## Citation
-If you use any part of this code and pretrained weights for your own purpose, please cite our [paper](https://arxiv.org/abs/).
+If you use any part of this code and pretrained weights for your own purpose, please cite our paper.
+<!-- [paper](https://arxiv.org/abs/). -->
 <!-- ```
 @InProceedings{pmlr-v139-kim21k,
   title = 	 {Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-modal Representation Consistency},
