@@ -8,7 +8,7 @@ Code for the MICCAI 2022 (early accepted) paper: "[Toward Clinically Assisted Co
 </p>
 
 ## Dataset
-We only provide the public part [[link]](https://drive.google.com/drive/folders/1e2t5HhQf08sTAE_CPRNVgpi6YUKgQSHn?usp=sharing) of the CPC-paired Dataset while the another part is privated. Thanks for understanding. And you should label the bbox of the polyp and crop for preprocessing.
+We only provide the public part [[link]](https://drive.google.com/drive/folders/1e2t5HhQf08sTAE_CPRNVgpi6YUKgQSHn?usp=sharing) of the CPC-paired Dataset while the another part is private. Thanks for understanding. And you should label the bounding box of the polyp and crop for preprocessing.
 
 ## Installation
 ```bash
