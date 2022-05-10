@@ -21,7 +21,7 @@ We provide the pretrained weights of the model which were mentioned in the paper
 
 For other model size, please refer to this table and download on the Internet or contact us to provide.
 <p align="center">
-  <img align="middle" src="./assets/variants.png" style="width:60%" alt="The main figure"/>
+  <img align="middle" src="./assets/variants.png" style="width:50%" alt="The main figure"/>
 </p>
 
 * Smaller Weights (vit_tiny_patch16_224_in21k)
