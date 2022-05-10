@@ -1,7 +1,6 @@
 import os
 import math
 import argparse
-import time
 
 import torch
 import torch.optim as optim

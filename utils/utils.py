@@ -1,7 +1,6 @@
 import os
 import sys
 import json
-import pickle
 import random
 import numpy as np
 
@@ -39,16 +38,6 @@ def read_split_data(root: str):
 
     return images_path, images_label
 
-
-def write_pickle(list_info: list, file_name: str):
-    with open(file_name, 'wb') as f:
-        pickle.dump(list_info, f)
-
-
-def read_pickle(file_name: str) -> list:
-    with open(file_name, 'rb') as f:
-        info_list = pickle.load(f)
-        return info_list
 
 def train_one_epoch(model, optimizer, data_loader, device, epoch, norm_coff=0.3):
     model.train()
