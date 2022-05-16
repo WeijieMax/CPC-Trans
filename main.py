@@ -147,10 +147,10 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--epochs', type=int, default=500)
     parser.add_argument('--early_stop_epoch', type=int, default=250)
-    parser.add_argument('--batch_size', type=int, default=16)
+    parser.add_argument('--batch_size', type=int, default=8)
     parser.add_argument('--lr', type=float, default=0.001)
     parser.add_argument('--lrf', type=float, default=0.01)
-    parser.add_argument('--data-path', type=str, default='', # F:\Research\Data\CPC
+    parser.add_argument('--data-path', type=str, default='', # /xxx/data/CPC
                         help='dataset path')
     parser.add_argument('--weights', type=str, default='',  # ./vit_small_patch16_224_in21k.pth
                         help='initial weights path')
