@@ -8,7 +8,7 @@ Code for the MICCAI 2022 (early accepted) paper: "[Toward Clinically Assisted Co
 </p>
 
 ## Dataset
-We only provide the public part [[link]](https://drive.google.com/drive/folders/1e2t5HhQf08sTAE_CPRNVgpi6YUKgQSHn?usp=sharing) of the CPC-paired Dataset while the another part is private. Thanks for understanding. And you should label the bounding box of the polyp and crop for preprocessing.
+We only provide the public part [[link]](https://drive.google.com/drive/folders/1e2t5HhQf08sTAE_CPRNVgpi6YUKgQSHn?usp=sharing) with its bbox we labeled [[link]](https://drive.google.com/file/d/1K06-VFm6b64Rhu-ehBtJ4OY6Yk7YZyIm/view?usp=sharing) of the CPC-paired Dataset while the another part is private. Thanks for understanding. And you should label the bounding box of the polyp and crop for preprocessing.
 
 ## Installation
 ```bash
@@ -39,7 +39,7 @@ python main.py --data_path /the/data/path/ --weights /the/pretrained/weights/pat
 If you use any part of this code and pretrained weights for your own purpose, please cite our paper.
 <!-- [paper](https://arxiv.org/abs/). -->
 <!-- ```
-@InProceedings{pmlr-v139-kim21k,
+@InProceedings{miccai-2022-weijie,
   title = 	 {Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-modal Representation Consistency},
   author =       {Ma, Weijie and Zhu, Ye and Zhang, Ruimao},
   booktitle = 	 {Proceedings of the 25th Medical Image Computing and Computer Assisted Intervention},
@@ -48,4 +48,5 @@ If you use any part of this code and pretrained weights for your own purpose, pl
 ``` -->
 
 ## Contact for Issues
-- [Weijie Ma](http://maweijie.site/)
+- [Weijie Ma](https://maweijie.site/)
+- [Ye Zhu](https://zhuye98.github.io/)

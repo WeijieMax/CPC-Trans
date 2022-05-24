@@ -161,7 +161,7 @@ class VisionTransformer(nn.Module):
             for i in range(depth)
         ])
         self.norm = norm_layer(embed_dim)
-        self.external_attn = nn.MultiheadAttention(embed_dim, num_heads, dropout=0.1)
+        self.SAM = nn.MultiheadAttention(embed_dim, num_heads, dropout=0.1)
 
         if representation_size and not distilled:
             self.has_logits = True
@@ -218,8 +218,8 @@ class VisionTransformer(nn.Module):
                 return (x1 + x1_dist) / 2, (x2 + x2_dist) / 2
         else:
             # (n1,b,c) (n2,b,c) (n2,b,c) -> out:(n1,b,c) attn_map:(b,n1,n2)
-            _, attn_output_weights11 = self.external_attn(cls_token1.unsqueeze(0), patch_embed1.transpose(1,0), patch_embed1.transpose(1,0))
-            _, attn_output_weights22 = self.external_attn(cls_token2.unsqueeze(0), patch_embed2.transpose(1,0), patch_embed2.transpose(1,0))
+            _, attn_output_weights11 = self.SAM(cls_token1.unsqueeze(0), patch_embed1.transpose(1,0), patch_embed1.transpose(1,0))
+            _, attn_output_weights22 = self.SAM(cls_token2.unsqueeze(0), patch_embed2.transpose(1,0), patch_embed2.transpose(1,0))
 
             pred1 = self.head(cls_token1)
             pred2 = self.head(cls_token2)
