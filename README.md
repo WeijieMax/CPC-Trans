@@ -19,7 +19,7 @@ pip install -r requirements.txt
 We provide the pretrained weights of the model which were mentioned in the paper.
 * Base Weights (vit_small_patch16_224_in21k) [link](https://drive.google.com/file/d/1I10_qXlUEtSjlvRWQjoBnKnVSLUYjF8C/view?usp=sharing)
 
-For other model size, please refer to this table and download on the Internet or contact us to provide.
+For other model sizes, please refer to this table and download on the Internet or contact us to provide.
 <p align="center">
   <img align="middle" src="./assets/variants.png" style="width:50%" alt="The main figure"/>
 </p>
@@ -49,4 +49,3 @@ If you use any part of this code and pretrained weights for your own purpose, pl
 
 ## Contact for Issues
 - [Weijie Ma](https://maweijie.site/)
-- [Ye Zhu](https://zhuye98.github.io/)
