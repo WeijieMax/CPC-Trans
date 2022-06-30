@@ -1,6 +1,6 @@
 # CPC-Trans
 
-Code for the MICCAI 2022 (early accepted) paper: "[Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-modal Representation Consistency](https://arxiv.org/abs/)" (To be published)
+Code for the MICCAI 2022 (early accepted) paper: "[Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-modal Representation Consistency](https://arxiv.org/abs/2206.11826)"
 
 ---
 <p align="center">
