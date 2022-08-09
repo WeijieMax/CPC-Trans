@@ -37,15 +37,16 @@ python main.py --data_path /the/data/path/ --weights /the/pretrained/weights/pat
 
 ## Citation
 If you use any part of this code and pretrained weights for your own purpose, please cite our paper.
-<!-- [paper](https://arxiv.org/abs/). -->
-<!-- ```
-@InProceedings{miccai-2022-weijie,
-  title = 	 {Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-modal Representation Consistency},
-  author =       {Ma, Weijie and Zhu, Ye and Zhang, Ruimao},
-  booktitle = 	 {Proceedings of the 25th Medical Image Computing and Computer Assisted Intervention},
-  year = 	 {2022},
+
+```latex
+@article{ma2022cpc,
+  author = {Ma, Weijie and Zhu, Ye and Zhang, Ruimao and Yang, Jie and Hu, Yiwen and Li, Zhen and Xiang, Li},
+  title = {Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-modal Representation Consistency},
+  journal={arXiv preprint arXiv:2206.11826},
+  year = {2022},
+  url = {https://arxiv.org/abs/2206.11826},
 }
-``` -->
+```
 
 ## Contact for Issues
 - [Weijie Ma](https://maweijie.site/)
