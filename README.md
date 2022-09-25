@@ -1,6 +1,6 @@
 # CPC-Trans
 
-Code for the MICCAI 2022 (early accepted) paper: "[Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-modal Representation Consistency](https://arxiv.org/abs/2206.11826)"
+Code for the MICCAI 2022 (early accepted) paper: "[Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-modal Representation Consistency](https://link.springer.com/chapter/10.1007/978-3-031-16437-8_14)"
 
 ---
 <p align="center">
@@ -39,12 +39,13 @@ python main.py --data_path /the/data/path/ --weights /the/pretrained/weights/pat
 If you use any part of this code and pretrained weights for your own purpose, please cite our paper.
 
 ```latex
-@article{ma2022cpc,
-  author = {Ma, Weijie and Zhu, Ye and Zhang, Ruimao and Yang, Jie and Hu, Yiwen and Li, Zhen and Xiang, Li},
-  title = {Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-modal Representation Consistency},
-  journal={arXiv preprint arXiv:2206.11826},
-  year = {2022},
-  url = {https://arxiv.org/abs/2206.11826},
+@InProceedings{Ma-CPC-Trans,
+  author={Ma, Weijie and Zhu, Ye and Zhang, Ruimao and Yang, Jie and Hu, Yiwen and Li, Zhen and Xiang, Li},
+  title={Toward Clinically Assisted Colorectal Polyp Recognition via Structured Cross-Modal Representation Consistency},
+  booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2022},
+  year={2022},
+  publisher={Springer Nature Switzerland},
+  pages={141--150}
 }
 ```
 
