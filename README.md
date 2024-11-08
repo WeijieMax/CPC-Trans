@@ -50,4 +50,4 @@ If you use any part of this code and pretrained weights for your own purpose, pl
 ```
 
 ## Contact for Issues
-- [Weijie Ma](https://maweijie.site/)
+- [Weijie Ma](https://WeijieMax.github.io/)
